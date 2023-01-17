@@ -13,6 +13,11 @@
 		1FBCD577297700F100305699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCD575297700F100305699 /* Main.storyboard */; };
 		1FBCD579297700F200305699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCD578297700F200305699 /* Assets.xcassets */; };
 		1FBCD57C297700F200305699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCD57A297700F200305699 /* LaunchScreen.storyboard */; };
+		1FF295A5297708C000F5A437 /* BankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A4297708C000F5A437 /* BankAPI.swift */; };
+		1FF295A72977097F00F5A437 /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A62977097F00F5A437 /* BankModel.swift */; };
+		1FF295A92977099A00F5A437 /* BankProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A82977099A00F5A437 /* BankProvider.swift */; };
+		1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AA29770A8B00F5A437 /* MapController.swift */; };
+		1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AC29770B5300F5A437 /* TabBarController.swift */; };
 		5D2990694F3E142BBFE9A168 /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBCE739DC7861F72AE91C8B /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +30,11 @@
 		1FBCD578297700F200305699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBCD57B297700F200305699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBCD57D297700F200305699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF295A4297708C000F5A437 /* BankAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAPI.swift; sourceTree = "<group>"; };
+		1FF295A62977097F00F5A437 /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
+		1FF295A82977099A00F5A437 /* BankProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankProvider.swift; sourceTree = "<group>"; };
+		1FF295AA29770A8B00F5A437 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		1FF295AC29770B5300F5A437 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5483763DDC068AF35F162E21 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
 		8DBCE739DC7861F72AE91C8B /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CD901C6037B638E7806B15 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +58,6 @@
 				F7CD901C6037B638E7806B15 /* Pods-BankApp.debug.xcconfig */,
 				5483763DDC068AF35F162E21 /* Pods-BankApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +89,11 @@
 				1FBCD578297700F200305699 /* Assets.xcassets */,
 				1FBCD57A297700F200305699 /* LaunchScreen.storyboard */,
 				1FBCD57D297700F200305699 /* Info.plist */,
+				1FF295A4297708C000F5A437 /* BankAPI.swift */,
+				1FF295A62977097F00F5A437 /* BankModel.swift */,
+				1FF295A82977099A00F5A437 /* BankProvider.swift */,
+				1FF295AA29770A8B00F5A437 /* MapController.swift */,
+				1FF295AC29770B5300F5A437 /* TabBarController.swift */,
 			);
 			path = BankApp;
 			sourceTree = "<group>";
@@ -226,7 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBCD574297700F100305699 /* ViewController.swift in Sources */,
+				1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */,
+				1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */,
+				1FF295A72977097F00F5A437 /* BankModel.swift in Sources */,
+				1FF295A92977099A00F5A437 /* BankProvider.swift in Sources */,
 				1FBCD570297700F100305699 /* AppDelegate.swift in Sources */,
+				1FF295A5297708C000F5A437 /* BankAPI.swift in Sources */,
 				1FBCD572297700F100305699 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
