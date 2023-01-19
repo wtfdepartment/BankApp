@@ -9,6 +9,7 @@ import Moya
 
 enum BankAPI {
     case adress
+    case gem
 }
 
 extension BankAPI: TargetType{
@@ -20,12 +21,14 @@ extension BankAPI: TargetType{
         switch self {
             case .adress:
                 return "/atm"
+            case .gem:
+                return "/getgems"
         }
     }
     
     var method: Moya.Method {
         switch self {
-            case .adress:
+            case .adress, .gem:
                 return .get
         }
     }
@@ -50,6 +53,8 @@ extension BankAPI: TargetType{
         switch self {
             case .adress:
                 params["city"] = "Минск"
+            case .gem:
+                return nil
         }
         
         return params
@@ -57,7 +62,7 @@ extension BankAPI: TargetType{
     
     var encoding: ParameterEncoding {
         switch self {
-            case .adress:
+            case .adress, .gem:
                 return URLEncoding.queryString
         }
     }

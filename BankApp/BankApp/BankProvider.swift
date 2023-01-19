@@ -27,3 +27,21 @@ final class BelarusBankProvider {
         }
     }
 }
+
+final class GemProvider {
+    private let provider = MoyaProvider<BankAPI>(plugins: [NetworkLoggerPlugin()])
+    
+    func gemData(bankBlock: @escaping ([GemModel]) -> Void, failure: (() -> Void)? = nil) {
+        provider.request(.gem) { result in
+            switch result {
+                case .success(let response):
+                    guard let adress = try? response.mapArray(GemModel.self) else { return }
+                    bankBlock(adress)
+                    
+                case .failure(let error):
+                    print(error.localizedDescription)
+                    failure?()
+            }
+        }
+    }
+}

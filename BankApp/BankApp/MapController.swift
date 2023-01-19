@@ -6,24 +6,48 @@
 //
 
 import UIKit
+import GoogleMaps
+import CoreLocation
 
-class MapController: UIViewController {
+class MapController: UIViewController, GMSMapViewDelegate {
 
+    @IBOutlet weak var mapView: GMSMapView!
+    var markers = [GMSMarker]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        BelarusBankProvider().bankAdress { atm in
+            print(atm)
+            atm.forEach { item in
+                self.drawMarker(to: CLLocationCoordinate2D(
+                    latitude: Double(item.lat!)!,
+                    longitude: Double(item.lon!)!)
+                )
+            }
+        }
+        
+        let locationManger = CLLocationManager()
+        locationManger.requestAlwaysAuthorization()
+        
+        mapView.delegate = self
+//        self.view.backgroundColor = .red
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func drawMarker(to location: CLLocationCoordinate2D) {
+        
+        let marker = GMSMarker(position: location)
+        marker.map  = mapView
+        markers.append(marker)
     }
-    */
 
+
+}
+
+extension ViewController: GMSMapViewDelegate {
+
+    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+        
+        return true
+    }
 }
