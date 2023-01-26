@@ -99,6 +99,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i5P-N2-m7K"/>
+<<<<<<< Updated upstream
+=======
+                    <connections>
+                        <outlet property="cityCollection" destination="D7T-2G-ZYG" id="akj-BC-h3x"/>
+                        <outlet property="filialsCollections" destination="voR-Ox-civ" id="dvk-HU-iVA"/>
+                        <outlet property="mapView" destination="uKX-87-qxs" id="71k-8O-O0l"/>
+                    </connections>
+>>>>>>> Stashed changes
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kf1-Eh-bCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,11 +130,11 @@
             </objects>
             <point key="canvasLocation" x="992" y="18"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="GTS-Sw-aEH">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uo9-FU-SaO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="jcz-oS-Mte"/>
+                <navigationController id="uo9-FU-SaO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="jcz-oS-Mte"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ps6-nW-hfM">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -141,11 +149,11 @@
             </objects>
             <point key="canvasLocation" x="1930.534351145038" y="-329.57746478873241"/>
         </scene>
-        <!--Item-->
+        <!--Diamond-->
         <scene sceneID="2BF-mY-jpw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o71-O2-xtb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Mrc-Y7-QCl"/>
+                    <tabBarItem key="tabBarItem" title="Diamond" image="diamond" catalog="system" id="Mrc-Y7-QCl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="x91-vb-cn7">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -160,8 +168,33 @@
             </objects>
             <point key="canvasLocation" x="1930.534351145038" y="411.97183098591552"/>
         </scene>
+<<<<<<< Updated upstream
+=======
+        <!--Metal-->
+        <scene sceneID="Oi8-f0-NUT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DbU-nR-aQu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Metal" image="hockey.puck" catalog="system" id="tLK-jC-Dos"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BgI-To-PmP">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JeE-mS-kDH" kind="relationship" relationship="rootViewController" id="baA-V9-nT1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fjp-vL-Jjd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1930.534351145038" y="1166.9014084507044"/>
+        </scene>
+>>>>>>> Stashed changes
     </scenes>
     <resources>
+        <image name="diamond" catalog="system" width="128" height="124"/>
+        <image name="hockey.puck" catalog="system" width="128" height="98"/>
+        <image name="map" catalog="system" width="128" height="112"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

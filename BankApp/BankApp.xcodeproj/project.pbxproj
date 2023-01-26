@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB4516C2980444500A13251 /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4516A2980444500A13251 /* CityCollectionViewCell.swift */; };
+		1FB4516D2980444500A13251 /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4516B2980444500A13251 /* CityCollectionViewCell.xib */; };
+		1FB451712980481500A13251 /* FilialsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4516F2980481500A13251 /* FilialsCollectionViewCell.swift */; };
+		1FB451722980481500A13251 /* FilialsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB451702980481500A13251 /* FilialsCollectionViewCell.xib */; };
 		1FBCD570297700F100305699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCD56F297700F100305699 /* AppDelegate.swift */; };
 		1FBCD572297700F100305699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCD571297700F100305699 /* SceneDelegate.swift */; };
 		1FBCD574297700F100305699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCD573297700F100305699 /* ViewController.swift */; };
@@ -18,10 +22,22 @@
 		1FF295A92977099A00F5A437 /* BankProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A82977099A00F5A437 /* BankProvider.swift */; };
 		1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AA29770A8B00F5A437 /* MapController.swift */; };
 		1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AC29770B5300F5A437 /* TabBarController.swift */; };
+<<<<<<< Updated upstream
+=======
+		1FF295B129771F2B00F5A437 /* ButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AF29771F2B00F5A437 /* ButtonController.swift */; };
+		1FF295B62979A9B400F5A437 /* GemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295B42979A9B400F5A437 /* GemCell.swift */; };
+		1FF295B72979A9B400F5A437 /* GemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF295B52979A9B400F5A437 /* GemCell.xib */; };
+		1FF295BA2979B1C300F5A437 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295B92979B1C300F5A437 /* TableController.swift */; };
+		1FF295BC297C134B00F5A437 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295BB297C134B00F5A437 /* Cities.swift */; };
+>>>>>>> Stashed changes
 		5D2990694F3E142BBFE9A168 /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBCE739DC7861F72AE91C8B /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FB4516A2980444500A13251 /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FB4516B2980444500A13251 /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
+		1FB4516F2980481500A13251 /* FilialsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilialsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FB451702980481500A13251 /* FilialsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilialsCollectionViewCell.xib; sourceTree = "<group>"; };
 		1FBCD56C297700F100305699 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBCD56F297700F100305699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FBCD571297700F100305699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +51,14 @@
 		1FF295A82977099A00F5A437 /* BankProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankProvider.swift; sourceTree = "<group>"; };
 		1FF295AA29770A8B00F5A437 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		1FF295AC29770B5300F5A437 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		1FF295AF29771F2B00F5A437 /* ButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonController.swift; sourceTree = "<group>"; };
+		1FF295B42979A9B400F5A437 /* GemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemCell.swift; sourceTree = "<group>"; };
+		1FF295B52979A9B400F5A437 /* GemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GemCell.xib; sourceTree = "<group>"; };
+		1FF295B92979B1C300F5A437 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		1FF295BB297C134B00F5A437 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		5483763DDC068AF35F162E21 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
 		8DBCE739DC7861F72AE91C8B /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CD901C6037B638E7806B15 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +83,24 @@
 				5483763DDC068AF35F162E21 /* Pods-BankApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		1FB451692980440900A13251 /* CityCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4516A2980444500A13251 /* CityCollectionViewCell.swift */,
+				1FB4516B2980444500A13251 /* CityCollectionViewCell.xib */,
+			);
+			path = CityCollectionCell;
+			sourceTree = "<group>";
+		};
+		1FB4516E298047F500A13251 /* FilialsCollectioCell */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4516F2980481500A13251 /* FilialsCollectionViewCell.swift */,
+				1FB451702980481500A13251 /* FilialsCollectionViewCell.xib */,
+			);
+			path = FilialsCollectioCell;
 			sourceTree = "<group>";
 		};
 		1FBCD563297700F100305699 = {
@@ -94,10 +136,46 @@
 				1FF295A82977099A00F5A437 /* BankProvider.swift */,
 				1FF295AA29770A8B00F5A437 /* MapController.swift */,
 				1FF295AC29770B5300F5A437 /* TabBarController.swift */,
+<<<<<<< Updated upstream
+=======
+				1FF295B92979B1C300F5A437 /* TableController.swift */,
+				1FF295BB297C134B00F5A437 /* Cities.swift */,
+>>>>>>> Stashed changes
 			);
 			path = BankApp;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+=======
+		1FF295AE29771E8600F5A437 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4516E298047F500A13251 /* FilialsCollectioCell */,
+				1FB451692980440900A13251 /* CityCollectionCell */,
+				1FF295B82979AA7400F5A437 /* GemCell */,
+				1FF295B32979A97300F5A437 /* ButtonController */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1FF295B32979A97300F5A437 /* ButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				1FF295AF29771F2B00F5A437 /* ButtonController.swift */,
+			);
+			path = ButtonController;
+			sourceTree = "<group>";
+		};
+		1FF295B82979AA7400F5A437 /* GemCell */ = {
+			isa = PBXGroup;
+			children = (
+				1FF295B42979A9B400F5A437 /* GemCell.swift */,
+				1FF295B52979A9B400F5A437 /* GemCell.xib */,
+			);
+			path = GemCell;
+			sourceTree = "<group>";
+		};
+>>>>>>> Stashed changes
 		74C6EB8AE4AFD8C2D93E3B26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBCD57C297700F200305699 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< Updated upstream
+=======
+				1FB4516D2980444500A13251 /* CityCollectionViewCell.xib in Resources */,
+				1FF295B72979A9B400F5A437 /* GemCell.xib in Resources */,
+				1FB451722980481500A13251 /* FilialsCollectionViewCell.xib in Resources */,
+>>>>>>> Stashed changes
 				1FBCD579297700F200305699 /* Assets.xcassets in Resources */,
 				1FBCD577297700F100305699 /* Main.storyboard in Resources */,
 			);
@@ -239,12 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF295BC297C134B00F5A437 /* Cities.swift in Sources */,
 				1FBCD574297700F100305699 /* ViewController.swift in Sources */,
 				1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				1FB4516C2980444500A13251 /* CityCollectionViewCell.swift in Sources */,
+				1FF295BA2979B1C300F5A437 /* TableController.swift in Sources */,
+>>>>>>> Stashed changes
 				1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */,
 				1FF295A72977097F00F5A437 /* BankModel.swift in Sources */,
 				1FF295A92977099A00F5A437 /* BankProvider.swift in Sources */,
 				1FBCD570297700F100305699 /* AppDelegate.swift in Sources */,
+				1FB451712980481500A13251 /* FilialsCollectionViewCell.swift in Sources */,
 				1FF295A5297708C000F5A437 /* BankAPI.swift in Sources */,
 				1FBCD572297700F100305699 /* SceneDelegate.swift in Sources */,
 			);

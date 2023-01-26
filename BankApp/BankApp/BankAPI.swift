@@ -9,6 +9,12 @@ import Moya
 
 enum BankAPI {
     case adress
+<<<<<<< Updated upstream
+=======
+    case gem
+    case filials
+    case ATM
+>>>>>>> Stashed changes
 }
 
 extension BankAPI: TargetType{
@@ -20,12 +26,25 @@ extension BankAPI: TargetType{
         switch self {
             case .adress:
                 return "/atm"
+<<<<<<< Updated upstream
+=======
+            case .gem:
+                return "/getgems"
+            case .filials:
+                return "/filials_info"
+            case .ATM:
+                return "/atm"
+>>>>>>> Stashed changes
         }
     }
     
     var method: Moya.Method {
         switch self {
+<<<<<<< Updated upstream
             case .adress:
+=======
+            case .adress, .gem, .ATM, .filials:
+>>>>>>> Stashed changes
                 return .get
         }
     }
@@ -50,6 +69,15 @@ extension BankAPI: TargetType{
         switch self {
             case .adress:
                 params["city"] = "Минск"
+<<<<<<< Updated upstream
+=======
+            case .gem:
+                return nil
+            case .filials:
+                return nil
+            case .ATM:
+                return nil
+>>>>>>> Stashed changes
         }
         
         return params
@@ -57,7 +85,11 @@ extension BankAPI: TargetType{
     
     var encoding: ParameterEncoding {
         switch self {
+<<<<<<< Updated upstream
             case .adress:
+=======
+            case .adress, .gem, .filials, .ATM:
+>>>>>>> Stashed changes
                 return URLEncoding.queryString
         }
     }

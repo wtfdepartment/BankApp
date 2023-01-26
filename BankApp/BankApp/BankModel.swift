@@ -7,7 +7,12 @@
 
 import Foundation
 import ObjectMapper
+<<<<<<< Updated upstream
 
+=======
+import UIKit
+// MARK: BankModel
+>>>>>>> Stashed changes
 class BankModel: Mappable {
     var id: String?
     var area: String?
@@ -30,3 +35,46 @@ class BankModel: Mappable {
         lon         <- map["gps_y"]
     }
 }
+<<<<<<< Updated upstream
+=======
+// MARK: GemModel
+class GemModel: Mappable {
+    var gemNumberOfAttestat: String = ""
+    var gemForm: String = ""
+    var gemWorkTime: String = ""
+    var gemWeight: String = ""
+    var gemColor: String = ""
+    var gemCost: String = ""
+    var gemFilialID: String = ""
+    var gemCityName: String = ""
+    
+    required init?(map: ObjectMapper.Map) {
+        mapping(map: map)
+    }
+    
+    func mapping(map: ObjectMapper.Map) {
+        gemNumberOfAttestat  <- map["attestat"]
+        gemForm              <- map["name_ru"]
+        gemWorkTime          <- map["grani"]
+        gemWeight            <- map["weight"]
+        gemColor             <- map["color"]
+        gemCost              <- map["cost"]
+        gemFilialID          <- map["filial_id"]
+        gemCityName          <- map["name"]
+    }
+}
+
+// MARK: CityModel
+
+class CityModel: Mappable {
+    var name = ""
+    
+    required init(map: ObjectMapper.Map) {
+        mapping(map: map)
+    }
+    
+    func mapping(map: ObjectMapper.Map) {
+        name <- map["name"]
+    }
+}
+>>>>>>> Stashed changes
