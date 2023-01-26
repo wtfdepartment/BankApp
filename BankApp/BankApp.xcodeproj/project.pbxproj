@@ -17,7 +17,6 @@
 		1FF295A72977097F00F5A437 /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A62977097F00F5A437 /* BankModel.swift */; };
 		1FF295A92977099A00F5A437 /* BankProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295A82977099A00F5A437 /* BankProvider.swift */; };
 		1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AA29770A8B00F5A437 /* MapController.swift */; };
-		1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AC29770B5300F5A437 /* TabBarController.swift */; };
 		1FF295B129771F2B00F5A437 /* ButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295AF29771F2B00F5A437 /* ButtonController.swift */; };
 		1FF295B229771F2B00F5A437 /* ButtonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF295B029771F2B00F5A437 /* ButtonController.xib */; };
 		1FF295B62979A9B400F5A437 /* GemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF295B42979A9B400F5A437 /* GemCell.swift */; };
@@ -39,7 +38,6 @@
 		1FF295A62977097F00F5A437 /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
 		1FF295A82977099A00F5A437 /* BankProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankProvider.swift; sourceTree = "<group>"; };
 		1FF295AA29770A8B00F5A437 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
-		1FF295AC29770B5300F5A437 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1FF295AF29771F2B00F5A437 /* ButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonController.swift; sourceTree = "<group>"; };
 		1FF295B029771F2B00F5A437 /* ButtonController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonController.xib; sourceTree = "<group>"; };
 		1FF295B42979A9B400F5A437 /* GemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemCell.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				1FF295A62977097F00F5A437 /* BankModel.swift */,
 				1FF295A82977099A00F5A437 /* BankProvider.swift */,
 				1FF295AA29770A8B00F5A437 /* MapController.swift */,
-				1FF295AC29770B5300F5A437 /* TabBarController.swift */,
 				1FF295B92979B1C300F5A437 /* TableController.swift */,
 			);
 			path = BankApp;
@@ -281,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBCD574297700F100305699 /* ViewController.swift in Sources */,
-				1FF295AD29770B5300F5A437 /* TabBarController.swift in Sources */,
 				1FF295BA2979B1C300F5A437 /* TableController.swift in Sources */,
 				1FF295AB29770A8B00F5A437 /* MapController.swift in Sources */,
 				1FF295A72977097F00F5A437 /* BankModel.swift in Sources */,
